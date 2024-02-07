@@ -1,0 +1,82 @@
+#title,
+#description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+#description {
+  color: black;
+  font-weight: 500;
+}
+
+#container {
+  height: 500px;
+  margin-left: 37%;
+  width: 350px !important;
+  background-color: rgba(128, 122, 122, 0.356);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#result {
+  font-size: 26px;
+  margin: 25px 23px;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#firstdiv {
+  overflow: hidden;
+  width: 348px;
+  height: 80px;
+}
+#seconddiv,
+#thirddiv,
+#fourthdiv,
+#fivethdiv {
+  width: 348px;
+  height: 80px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fiveth {
+  float: left;
+  margin: 5px 15px 0px 7px;
+  height: 70px;
+  width: 65px;
+  background-color: rgba(128, 122, 122, 0);
+  border: 0px;
+  font-weight: bold;
+}
+
+/* Particular button Styling */
+#clear {
+  color: red;
+}
+#equal {
+  background-color: rgb(45, 45, 211);
+  color: whitesmoke;
+  width: 120px;
+  height: 50px;
+  margin-left: 18px;
+  margin-top: 11px;
+  border-radius: 6px;
+}
+
+#add,
+#subtract,
+#division,
+#multiply {
+  color: blue;
+  font-size: 20px;
+}
+
+#dot,
+#backspace,
+#subtract {
+  font-size: 25px;
+}
